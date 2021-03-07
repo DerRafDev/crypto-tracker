@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <h1>Cryptocurrency Tracker</h1>
-        <h3 className="coin-text">Search a currency</h3>
+        <h1 className="coin-text-h1">Cryptocurrency Tracker</h1>
+        <h3 className="coin-text-h3">Search a currency</h3>
         <form>
           <input type="text" placeholder="Search"
           className="coin-input" onChange={handleChange}/>
@@ -44,8 +44,10 @@ function App() {
             name={coin.name}
             image={coin.image}
             symbol={coin.symbol}
-            volume={coin.market_cap}
+            volume={coin.total_volume}
             price={coin.current_price}
+            priceChange={coin.price_change_percentage_24h}
+            marketcap={coin.market_cap}
           />
         );
         
