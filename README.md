@@ -12,5 +12,7 @@ The objetive of this project is to learn better React and also how to use the Co
 
 ## Result 🖥️
 
+![alt text](https://github.com/DerRafDev/crypto-tracker/blob/main/readme-img.png)
+
 ## Contact 📞
 Created by [@DerRaf](https://www.linkedin.com/in/rafael-sordi/) - feel free to contact me!
